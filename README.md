@@ -1,2 +1,8 @@
 # Tech-zone
-TechZone is a web-based store management system built with ASP.NET Core, C#, SQL Server, and Bootstrap. It enables employees to manage product inventory (add, edit, delete) and view item details. This project highlights my skills in backend development, database handling, and creating user-friendly web applications.
+How to Run the Project:
+﻿﻿﻿Download or clone the repository.
+﻿﻿﻿Open the (TechZone. sin file in Visual Studio.
+﻿﻿﻿Create the database using the provided
+SQL script.
+﻿﻿﻿Update the connection string in appsettings. json to match your local SQL Server instance.
+﻿﻿﻿Build and run the project.
