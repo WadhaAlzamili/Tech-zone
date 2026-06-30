@@ -1,0 +1,402 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.product-card {
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+    .product-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+.product-img {
+    height: 220px;
+    object-fit: contain;
+    padding: 20px;
+}
+/* ====== THEME COLORS ====== */
+/* ===== TechZone Blue Theme ===== */
+
+body {
+    background: linear-gradient(135deg, #eef4ff, #f8fbff);
+}
+
+ 
+.page-title {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d47a1;
+    border: 3px solid #2196f3;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    box-shadow: 0 8px 20px rgba(33, 150, 243, 0.25);
+}
+
+ 
+.product-card {
+    background: linear-gradient(180deg, #ffffff, #f2f7ff);
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(13, 71, 161, 0.15);
+    transition: all 0.3s ease;
+}
+
+    .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 18px 40px rgba(13, 71, 161, 0.3);
+    }
+
+ 
+.product-price {
+    color: #1565c0;
+    font-weight: bold;
+}
+
+/* ===== Our Products Title ===== */
+.section-title {
+    display: inline-block;
+    margin: 0 auto 30px auto;
+    padding: 10px 30px;
+    border: 2px solid #1e88e5;  
+    border-radius: 12px;
+    color: #1e88e5;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #f5faff;
+    box-shadow: 0 8px 20px rgba(30,136,229,0.15);
+}
+
+ 
+.section-title {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ===== Product Card Content Center ===== */
+.product_card,
+.product-card,
+.card {
+    text-align: center;
+}
+
+    .product-card h5,
+    .card-title {
+        text-align: center;
+        font-weight: 600;
+    }
+
+.product-price {
+    text-align: center;
+    color: #1e88e5;
+    font-weight: 600;
+}
+/* ===== Price (Blue Theme) ===== */
+.product-price,
+.price,
+h4.price,
+.details-price {
+    color: #1e6fd9;  
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+/* ===== Add to Basket Button ===== */
+.btn-success {
+    background-color: #1e6fd9 !important;
+    border-color: #1e6fd9 !important;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 22px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+    /* Hover effect */
+    .btn-success:hover {
+        background-color: #155bb5 !important;
+        border-color: #155bb5 !important;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 18px rgba(30, 111, 217, 0.35);
+    }
+
+/* ===== Theme Colors ===== */
+:root {
+    --main-blue: #0d6efd; /* نفس أزرق Bootstrap */
+}
+
+/* ===== Our Products Title ===== */
+.section-title {
+    display: inline-block;
+    padding: 10px 28px;
+    border: 2px solid var(--main-blue);
+    border-radius: 30px;
+    color: var(--main-blue);
+    font-weight: 700;
+    margin: 20px auto 40px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+    .section-title:hover {
+        background-color: var(--main-blue);
+        color: #fff;
+    }
+
+/* ===== Product Cards ===== */
+.product-card {
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .product-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 25px rgba(13,110,253,0.25);
+    }
+
+    .product-card img {
+        max-height: 180px;
+        object-fit: contain;
+    }
+
+/* ===== Price Style ===== */
+.price-blue {
+    color: var(--main-blue);
+    font-weight: 600;
+}
+
+/* ===== Buttons ===== */
+.btn-main {
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+    color: #fff;
+}
+
+    .btn-main:hover {
+        background-color: #084298;
+        border-color: #084298;
+    }
+
+/* ===== Force Blue Theme for Prices ===== */
+
+ 
+.product-price,
+.product-details-price,
+.price,
+.total-price {
+    color: #0d6efd !important; /* Bootstrap blue */
+    font-weight: 600;
+}
+
+ 
+.text-success {
+    color: #0d6efd !important;
+}
+/* ===============================
+   Header / Navbar Styling
+   =============================== */
+
+/* Logo (TechZone) */
+.navbar-brand {
+    font-size: 1.8rem;  
+    font-weight: 700;
+    color: #0d6efd !important;  
+    letter-spacing: 0.5px;
+}
+
+    /* Logo hover */
+    .navbar-brand:hover {
+        color: #0b5ed7 !important;
+    }
+
+/* Login & Cart links */
+.navbar-nav .nav-link {
+    color: #0d6efd !important;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+    /* Hover effect */
+    .navbar-nav .nav-link:hover {
+        color: #0b5ed7 !important;
+        transform: translateY(-1px);
+    }
+
+     
+    .navbar-nav .nav-link i {
+        margin-right: 4px;
+    }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+    font-size: 28px;  
+    font-weight: 700;
+    color: #1e88e5 !important;  
+    letter-spacing: 1px;
+}
+
+    .navbar-brand:hover {
+        color: #1565c0 !important;
+    }
+.navbar .nav-link {
+    font-size: 16px;  
+    font-weight: 500;
+    color: #1e88e5 !important;
+    margin-left: 12px;
+}
+
+    .navbar .nav-link:hover {
+        color: #1565c0 !important;
+    }
+
+.navbar {
+    background: linear-gradient(90deg, #e3f2fd, #ffffff);
+    border-bottom: 1px solid #bbdefb;
+}
+ 
+:root {
+    --main-blue: #1e88e5;
+}
+
+ 
+.btn-primary {
+    background-color: var(--main-blue) !important;
+    border-color: var(--main-blue) !important;
+    font-size: 1.05rem;
+    border-radius: 10px;
+}
+
+    .btn-primary:hover {
+        background-color: #1565c0 !important;
+        border-color: #1565c0 !important;
+    }
+
+ 
+.btn-secondary,
+.btn-outline-secondary {
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+ 
+.btn-outline-primary {
+    color: var(--main-blue) !important;
+    border-color: var(--main-blue) !important;
+    border-radius: 10px;
+}
+
+    .btn-outline-primary:hover {
+        background-color: var(--main-blue) !important;
+        color: white !important;
+    }
+/* Navbar unified size */
+.navbar-brand,
+.navbar .nav-link {
+    font-size: 1.5rem;  
+    font-weight: 600;
+}
+
+/* Remove extra spacing differences */
+.navbar .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+/* Products link only */
+.products-link {
+    font-size: 0.95rem;  
+    font-weight: 500;
+}
+.navbar .products-link {
+    font-size: 0.9rem !important;
+    font-weight: 500;
+}
+.products-link {
+    font-size: 1rem;  
+    font-weight: 500;
+    padding: 0.25rem 0;  
+    line-height: 1;  
+    white-space: nowrap;
+}
+
+.products-link {
+    margin-left: 1rem;
+}
