@@ -10,7 +10,7 @@ SQL script.
 
 | Home Page | Log in Page | Register Page | Products |
 | :---: | :---: | :---: | :---: |
-| ![Home](HomePage.png) | ![Login](LoginPage.png) | ![Register](RegisterPage.png) | ![Products](ProductsPage.png) |
+| ![Home](HomePage.png) | ![Login](LoginPage.png) | ![Register](Registerpage.png) | ![Products](Productspage.png) |
 
 | Create | Details | Edit | Delete |
 | :---: | :---: | :---: | :---: |
